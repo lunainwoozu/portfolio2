@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{margin: 0; padding: 0; font-family: 'SF Pro Display', sans-serif;}
+body,html{font-size: 12px;}
+ol,ul{list-style: none;}
+h1,h2,h3,h4,h5,h6{font-size: 100%; font-family: 'Anton', sans-serif;}
+a{text-decoration: none; color: inherit;}
+img{vertical-align: bottom;}
+address,em{font-style: normal;}
+table{border-collapse: collapse; vertical-align: middle; text-align: center;}
+button{border: none;}
+input,select{vertical-align: middle; border: none;}
+.will-change{
+    will-change: transform, opacity;
+}
