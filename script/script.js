@@ -50,9 +50,7 @@ m_nav_li_a = $('.m_nav li a');
      }
   });
 
-  $(".slide").bxSlider({
-    mode: 'fade'
-  });
+ 
 
 
 // toggle
@@ -70,4 +68,9 @@ m_nav_li_a = $('.m_nav li a');
       $(this).next(".accordion-toggle").stop().toggleClass("line");
       $(this).toggleClass("anime");
     });
+  
+  
+   $(".slide").bxSlider({
+    mode: 'fade'
+  });
 });
