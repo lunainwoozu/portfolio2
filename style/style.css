@@ -5,6 +5,7 @@
     position: relative;
     overflow: hidden;
     letter-spacing: -1px;
+    scrollbar-width: none;
 }
 
 header {
@@ -23,8 +24,6 @@ header {
     margin: 0 auto;
     z-index: 99;
     transition: ease 0.3s;
-}
-#logo{
 }
 #logo a{
     display: block;
@@ -76,7 +75,7 @@ nav{
 .icon a+a{
     margin-left: 1.5vw;
 }
-.icon a img{
+.icon img{
     width: 2vw;
 }
 .on {
