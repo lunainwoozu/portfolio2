@@ -4,14 +4,13 @@ $(function(){
 
 // scroll header fixed
 const header = document.querySelector('#header');
-function scrollFunc(){
-  if (pageYOffset >= 1) {
+$(window).scroll(function(){
+  if ($(window).scrollTop() >= 1) {
     header.classList.add('on');
   } else {
     header.classList.remove('on');
   }
-}
-window.addEventListener('scroll', scrollFunc);
+})
 
 // hamburger action
 let overlay_navigation = $('.overlay-navigation'),
